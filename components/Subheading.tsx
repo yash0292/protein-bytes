@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { images } from '@/constants';
 
 interface Props {
     title: string,

@@ -1,6 +1,5 @@
 import React from 'react'
 import SubHeading from '@/components/Subheading';
-import images from '@/constants/images';
 import Image from 'next/image';
 import { Hero } from '@/types';
 import urlFor from '@/lib/urlFor';

@@ -1,8 +1,6 @@
-import images from '@/constants/images'
 import { TbTruckDelivery } from 'react-icons/tb'
 import { AiFillDollarCircle } from 'react-icons/ai'
 import { RiSecurePaymentFill, RiWhatsappFill } from 'react-icons/ri'
-import bg from '../constants/images'
 import Image from 'next/image'
 
 type Props = {}
