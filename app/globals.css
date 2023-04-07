@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar { width: 5px; }
+
+::-webkit-scrollbar-track { background-color: transparent; }
+
+::-webkit-scrollbar-thumb { 
+  @apply bg-protienGolden
+}
+
+html{
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.t1{
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.menuSpan::before{
+  @apply content-[""] before:h-4 border-y border-solid flex-grow h-2 border-protienGolden
+}
